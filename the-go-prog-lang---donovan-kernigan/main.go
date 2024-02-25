@@ -1,5 +1,7 @@
 package main
 
-func main() {
+import structembedding "tgpldk/struct_embedding"
 
+func main() {
+	structembedding.Embedding()
 }
