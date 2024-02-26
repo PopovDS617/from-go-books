@@ -1,4 +1,4 @@
-package deferbasics
+package _defer
 
 func Double(x int, y int) int {
 	var result int

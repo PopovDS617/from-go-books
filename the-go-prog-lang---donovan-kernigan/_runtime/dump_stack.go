@@ -1,4 +1,4 @@
-package runtimebasics
+package _runtime
 
 import (
 	"os"

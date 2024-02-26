@@ -1,4 +1,4 @@
-package basicserver
+package _server
 
 import (
 	"fmt"
