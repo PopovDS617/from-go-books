@@ -1,7 +1,17 @@
 package main
 
-import structembedding "tgpldk/struct_embedding"
+import (
+	"fmt"
+	"tgpldk/oop"
+)
 
 func main() {
-	structembedding.Embedding()
+	d := oop.Data
+
+	// oop.Data.internalData - cannot use it because it is hidden inside oop package
+
+	sd := d.GetHash()
+
+	fmt.Println(sd)
+
 }
