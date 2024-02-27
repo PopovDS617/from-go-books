@@ -1,9 +1,11 @@
 package main
 
-import "tgpldk/interfaces"
+import (
+	"tgpldk/concurrency"
+)
 
 func main() {
 
-	interfaces.SortingInterface()
+	concurrency.Pipeline()
 
 }
