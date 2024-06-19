@@ -45,3 +45,10 @@
 ```go
   runtime.SetFinalizer(x, func(){})
 ```
+
+<br/>
+- для выделения памяти в куче
+
+```go
+runtime.newobject()
+```
