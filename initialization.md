@@ -3,7 +3,7 @@
 ```go
 
     var x int   // 0
-	var px *int // nil
+	   var px *int // nil
 
 ```
 
