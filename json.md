@@ -7,5 +7,3 @@
 ```go
     Title `json:"name"`
 ```
-
--
